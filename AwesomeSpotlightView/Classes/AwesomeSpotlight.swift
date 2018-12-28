@@ -16,7 +16,7 @@ open class AwesomeSpotlight: NSObject {
     case circle
   }
   
-  var rect = CGRect()
+  public var rect = CGRect()
   var shape : AwesomeSpotlightShape = .roundRectangle
   var margin = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
   var isAllowPassTouchesThroughSpotlight = false
